@@ -1,25 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+        <div className='useState'>
+          <h2>Eliminar UseState</h2>
+          <p>Por favor, escribe el código de seguridad para comprobar que quieres eliminar.</p>
+          <span>Error...</span>
+          <div className='inputContainer'>
+          <input type="text" placeholder='Código de seguridad' />
+          <button>Comprobar</button>
+          </div>
+        </div>
+        <div className='useReducer'>
+          <h2>Eliminar UseReducer</h2>
+          <p>Por favor, escribe el código de seguridad para comprobar que quieres eliminar.</p>
+          <span>Error...</span>
+          <div className='inputContainer'>
+          <input type="text" placeholder='Código de seguridad' />
+          <button>Comprobar</button>
+          </div>
+        </div>
+    </>
+  )
 }
 
 export default App;
