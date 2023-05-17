@@ -1,0 +1,10 @@
+.loading-error{
+    height: 50px;
+}
+.buttons{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 5px 10px;
+    width: 200px;
+}

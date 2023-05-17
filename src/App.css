@@ -3,11 +3,12 @@
     text-align: center;
     display: flex;
     flex-flow: column wrap;
-
+    align-items: center;
 }
 .useState{
     padding-bottom: 60px;
-    border-bottom: 1px solid black;
+
+   
 }
 .inputContainer{
     padding-top: 20px;
